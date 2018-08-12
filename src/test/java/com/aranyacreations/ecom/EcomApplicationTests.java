@@ -14,5 +14,5 @@ public class EcomApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-	
+
 }

@@ -4,7 +4,12 @@ import com.aranyacreations.ecom.model.Product;
 import com.aranyacreations.ecom.repository.ProductRepository;
 import com.aranyacreations.ecom.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
+
+@Service
+@Transactional
 public class ProductServiceImpl implements ProductService {
 
     @Autowired
