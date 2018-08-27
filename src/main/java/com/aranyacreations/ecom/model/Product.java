@@ -15,7 +15,6 @@ public class Product {
     @Basic(optional = false)
     private String name;
 
-    
     private Double price;
     private String priceUrl;
 
